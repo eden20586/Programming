@@ -1,0 +1,91 @@
+#First question#
+count=0
+num=int(input("enter is number:"))
+while(num>0):
+  if(num%10==0):
+   count=count+1
+  num=int(num/10)
+print("zero is appears:",count)
+
+#Second question#
+number = input('enter a number: ')
+print('how many zero show', number.count('0'))
+
+#Third question#
+list_python = ['I','' ,'L','o','v','e','' , 'p','y','t','h','o','n']
+print('the len of the list_pyton is', len(list_python))
+print('how many a showed', list_python.count('a'))
+list_python_sentece = ''.join(list_python)
+print('xa showed in the list?', 'xa' in list_python_sentece)
+print('show the odd index of the list', list_python[1::2])
+
+list_exam = ['G','o' ,'o','d','','L','u','c' , 'k','','i','n','','t','h', 'e', '', 'e', 'x', 'a', 'm']
+print('the len of the list_exam', len(list_exam))
+print('how many a showed', list_exam.count('a'))
+list_exam_sentece = ''.join(list_exam)
+print('xa showed in the list?','xa' in list_exam_sentece)
+print('show the odd index of the list', list_exam[1::2])
+
+#Fourth question#
+list_numbers = []
+for i in range(1, 101, 1):
+  if(i%6 == 0):
+    list_numbers.append(i)
+  elif(i%15 == 0):
+    list_numbers.append(i)
+  elif(i%35 == 0):
+    list_numbers.append(i)
+print('the list_numbers divide in 6, 15 and 35', list_numbers)
+print('the amount of numbers that divide in 6, 15 and 35 is: ', len(list_numbers))
+
+#Fifth question#
+number = int(input('enter a first number: '))
+number_two = int(input('enter second number: '))
+if(number<0 or number_two<0):
+  print('number neagtive')
+else:
+  for i in range(1,number+1, 1):
+    for y in range(1, number_two+1, 1):
+      if(i*y%3 == 0):
+        print(i*y,"\t" ,end="")
+      else:
+        print('*',end='\t')
+    print()
+
+#Sixth question#
+count = 0
+list_same_plindrum =[]
+for i in range(100, 1000,1):
+  if(str(i)[0:3:1]==str(i)[-1:-4:-1]):
+    count = count+1
+    list_same_plindrum.append(i) 
+print(list_same_plindrum)
+print("the amount of numbers that plindrum is: ",count)
+
+#Seventh question#
+def isprime(num):
+  count = 0
+  for i in range(1, num+1, 1):
+    if(num%i == 0):
+      count = count+1 
+  return(count == 2)
+number = int(input('enter a number: '))
+print('does the number is prime number')
+print(isprime(number))
+
+#Eighth question#
+def max_min(list_maxmin, op):
+  if (op == 'max'):
+    return max(list_maxmin)
+  elif(op == 'min'):
+    return min(list_maxmin)
+  elif(op == 'maxmin'):
+    return min(list_maxmin), max(list_maxmin)
+list_numbers = []
+for i in range(1, 6, 1):
+  number =  int(input('enter a number: '))
+  list_numbers.append(number)
+print('the largest number is: ' ,max_min(list_numbers, 'max'))
+print('the smallest number is: ',max_min(list_numbers, 'min'))
+print('the largest number is and the smallest numbers are:' ,list(max_min(list_numbers, 'maxmin')))
+
