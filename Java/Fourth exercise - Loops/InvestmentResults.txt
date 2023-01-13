@@ -1,0 +1,17 @@
+First run : 
+ === Expected output : balance : 26,532.98 NIS , years : 20 ===
+Investment 1: The balance after 20 years is  : 26,532.98
+ === Expected output : balance : 50,031.89 NIS , years : 33 ===
+Investment 2: The balance after 33 years is  : 50,031.89 
+
+Second run : 
+ === Expected output : balance : 16,288.95 NIS , years : 10 ===
+Investment 1: The balance after 10 years is  : 16,288.95
+ === Expected output : balance : 20,789.28 NIS , years : 15 ===
+Investment 2: The balance after 15 years is  : 20,789.28 
+
+Third run : 
+ === Expected output : balance : 114,674.00 NIS , years : 50 ===
+Investment 1: The balance after 50 years is  : 114,674.00
+ === Expected output : balance : 45,380.39 NIS , years : 31 ===
+Investment 2: The balance after 31 years is  : 45,380.39 

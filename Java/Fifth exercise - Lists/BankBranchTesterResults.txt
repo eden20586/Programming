@@ -1,0 +1,672 @@
+Choose   1 - create account :
+First run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 1
+Please enter the new account details:
+Account number:             001
+Customer name:              Alice
+Initial balance:            0
+Minimal allowed balance:    -10000
+Your account is created in succesful.
+
+Second run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 1
+Please enter the new account details:
+Account number:             002
+Customer name:              Bob
+Initial balance:            -5000
+Minimal allowed balance:    -10000
+Your account is created in succesful.
+
+Choose  2 - print account details :
+First run : 
+Your choice : 2
+Please enter the account number:001
+Account details:
+Account Number =    001
+CustomerName   =  Alice
+Balance        = 0.00
+MinBalance     = -10,000.00
+
+Second run : 
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:002
+Account details:
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -5,000.00
+MinBalance     = -10,000.00
+
+Third run : 
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:003
+The account not found
+
+Run number four : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:00001
+The account not found
+
+Choose   3 - deposit : 
+comment : The balance before the deposit we can see up in Choose  2 - print account details.
+First run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 3
+Please enter the account number:001
+Please enter amount to deposit:1000
+Deposit of 1,000.00 to account 001 succeeded.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = 1,000.00
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -5,000.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-4,000.00
+-----------------------------------------------------
+
+Second run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 3
+Please enter the account number:002
+Please enter amount to deposit:2500
+Deposit of 2,500.00 to account 002 succeeded.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:002
+Account details:
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -2,500.00
+MinBalance     = -10,000.00
+
+Third run :
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 3
+Please enter the account number:00001
+Please enter amount to deposit:2000
+Deposit of 2,000.00 to account 00001 failed.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6 -  הוכחה שאין חשבון 00001.
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = 1,000.00
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -2,500.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-1,500.00
+-----------------------------------------------------
+
+Run number Four : 
+Your choice : 3
+Please enter the account number:003
+Please enter amount to deposit:100000
+Deposit of 100,000.00 to account 003 failed.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6 - הוכחה שאין חשבון 003.
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = 1,000.00
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -2,500.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-1,500.00
+-----------------------------------------------------
+
+Choose 4 - withdraw:
+First run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 4
+Please enter the account number:001
+Please enter amount to witdraw:10000
+Withdraw of 10,000.00 to account 001 succeeded.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:001
+Account details:
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -9,000.00 - הוכחה שבוצעה משיכה
+MinBalance     = -10,000.00
+
+Second run : 
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 4
+Please enter the account number:002
+Please enter amount to witdraw:6500
+Withdraw of 6,500.00 to account 002 succeeded.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:002
+Account details:
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,000.00 - הוכחה שבוצעה משיכה
+MinBalance     = -10,000.00
+
+Third run : 
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 4
+Please enter the account number:002
+Please enter amount to witdraw:1500
+Withdraw of 1,500.00 to account 002 failed.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:002
+Account details:
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,000.00 הוכחה שאכן המשיכה נכשלה בגלל שתקרת מסגרת האשראי לא מאפשרת את המשיכה.
+MinBalance     = -10,000.00
+
+Run number four : 
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 4
+Please enter the account number:003
+Please enter amount to witdraw:2000
+Withdraw of 2,000.00 to account 003 failed.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6 -הוכחה שאין לקוח עם מספר 003 ולכן התקבלה הודעת שגיאה.
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -9,000.00
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,000.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-18,000.00
+-----------------------------------------------------
+
+Choose   5 - transfer : 
+First run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 5
+Transfer from account : 002
+Transfer to account   : 001
+Amount to transfer    : 500
+Transfer of 500.00 from account 002 to account 001 succeeded.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -8,500.00 - הוכחה שבוצעה הפקדה ללקוח 001 מלקוח 002 על סך 500 ש"ח.
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,500.00 - הוכחה שבוצעה משיכה מלקוח 002 על סך 500 ש"ח.
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-18,000.00
+-----------------------------------------------------
+
+Second run : 
+
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 5
+Transfer from account : 001
+Transfer to account   : 002
+Amount to transfer    : 450
+Transfer of 450.00 from account 001 to account 002 succeeded.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -8,950.00  -  הוכחה שבוצעה משיכה מלקוח 001 על סך 450 ש"ח.
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,050.00 - הוכחה שבוצעה הפקדה ללקוח 002 מלקוח 001 על סך 450 ש"ח.
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-18,000.00
+-----------------------------------------------------
+
+Third run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 5
+Transfer from account : 002
+Transfer to account   : 001
+Amount to transfer    : 1000
+Transfer of 1,000.00 from account 002 to account 001 failed.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -8,950.00 - הוכחה שההעברה נכשלה ולא הופקד לכאן כסף נוסף.
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,050.00 - הוכחה שהעברה נכשלה ולא נמשך מכאן כסף.
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-18,000.00
+-----------------------------------------------------
+
+Run number four : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 5
+Transfer from account : 003
+Transfer to account   : 001
+Amount to transfer    : 200
+Transfer of 200.00 from account 003 to account 001 failed.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 6
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts details : 
+
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -8,950.00 - הוכחה שלא הופקד כסף לחשבון כאן , כיוון שמספר הלקוח 003 אינו קיים ולכן לא יכולה להתבצע ההפקדה.
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,050.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts: 2
+Total balance:-18,000.00
+-----------------------------------------------------
+
+Choose   7 - print accounts in debt : 
+First run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 7
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts in debt : 
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -8,950.00
+MinBalance     = -10,000.00
+
+
+Account Number =    002
+CustomerName   =    Bob
+Balance        = -9,050.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts in debt: 2
+Total balance of accounts in debt: -18,000.00
+
+Second run : 
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 3 
+Please enter the account number:002
+Please enter amount to deposit:10000
+Deposit of 10,000.00 to account 002 succeeded. - בוצעה הפקדה לחשבון 002 כדי להוציא אותו מהמינוס.
+Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 2
+Please enter the account number:002
+Account details:
+Account Number =    002
+CustomerName   =    Bob
+Balance        = 950.00 - הוכחה שההפקדה בוצעה ואכן חשבון 002 אינו במינוס.
+MinBalance     = -10,000.00
+
+
+ Please choose action:
+  1 - create account
+  2 - print account details
+  3 - deposit
+  4 - withdraw
+  5 - transfer
+  6 - print all accounts
+  7 - print accounts in debt
+ -1 - quit
+Your choice : 7 - הוכחה שהחשבון של 002 אינו מופיע כיוון שהוא כבר לא במינוס , וגם הכסף שהופקד לחשבון 002 אינו נלקח מחשבונו של לקוח 001.
+-----------------------------------------------------
+Branch Number =    987 , Branch Adress = Havazelet 10 TA
+-----------------------------------------------------
+Accounts in debt : 
+Account Number =    001
+CustomerName   =  Alice
+Balance        = -8,950.00
+MinBalance     = -10,000.00
+
+
+-----------------------------------------------------
+Number of accounts in debt: 1
+Total balance of accounts in debt: -8,950.00

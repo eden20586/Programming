@@ -1,0 +1,19 @@
+First run : 
+Please enter a month : January
+The month January is contain 31 days . 
+
+Second run : 
+Please enter a month : June
+The month June is contain 30 days . 
+
+Third run : 
+Please enter a month : July
+The month July is contain 31 days . 
+
+Run number four : 
+Please enter a month : December
+The month December is contain 31 days . 
+
+Run number five :
+Please enter a month : February
+The month February is contain 28 or 29 days .  

@@ -1,0 +1,30 @@
+Run : 
+Please enter series of integer numbers , Q to quit : -10
+-12
+35
+79
+-1
+0
+56
+79
+-134
+9
+88
+90
+Q
+Max number    = 90
+Min number    = -134
+Median number = 35
+Sorted list with median :
+-134
+-12
+-10
+-1
+0
+9
+35 <=== median
+56
+79
+79
+88
+90

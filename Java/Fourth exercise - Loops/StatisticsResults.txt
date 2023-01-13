@@ -1,0 +1,12 @@
+Run : 
+Please enter series of numbers , -1 to finish : 80
+20
+5
+3
+1
+-1
+ The Average number is : 21.80
+ The counted even nubmer  is : 2
+ The minium number is : 1.00
+ The maximum number is : 80.00
+ 

@@ -1,0 +1,2 @@
+Please enter three numbers : 9 4 2.5
+The largest number is : 9.00 . 

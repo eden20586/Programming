@@ -1,0 +1,29 @@
+First run : 
+Please enter your name : Ron
+Please enter your hourly wage : 40
+Please enter your numbers hours in your working monthly : 40
+Ron's monthly salary is : 1,600.00 NIS 
+
+Second run : 
+Please enter your name : Dan
+Please enter your hourly wage : 65
+Please enter your numbers hours in your working monthly : 55
+Dan's monthly salary is : 4,062.50 NIS 
+
+Third run : 
+Please enter your name : Ori
+Please enter your hourly wage : 45.25
+Please enter your numbers hours in your working monthly : 39.75
+Ori's montlhy salary is : 1,798.69 NIS 
+
+Run number four : 
+Please enter your name : Shir
+Please enter your hourly wage : 55
+Please enter your numbers hours in your working monthly : 40.25
+Shir's monthly salary is : 2,220.63 NIS 
+
+Run number five : 
+Please enter your name : Eden
+Please enter your hourly wage : 80
+Please enter your numbers hours in your working monthly : 155.50
+Eden's monthly salary is : 17,060.00 NIS 

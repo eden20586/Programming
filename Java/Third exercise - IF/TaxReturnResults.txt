@@ -1,0 +1,39 @@
+First run : 
+How would you like to calculate the tax? 
+press '1' for Monthly or '2' for Yearly 
+1
+Please enter your monthly Salary : 
+55000
+Your monthly tax is : 17,631 NIS 
+
+Second run : 
+How would you like to calculate the tax? 
+press '1' for Monthly or '2' for Yearly 
+2
+Please enter your yearly Salary : 
+320000
+Your yearly tax is : 73,580 NIS
+
+Third run : 
+How would you like to calculate the tax? 
+press '1' for Monthly or '2' for Yearly 
+2
+Please enter your yearly Salary : 
+815700
+Your yearly tax is : 289,420 NIS 
+
+Run number fourth  :
+How would you like to calculate the tax? 
+press '1' for Monthly or '2' for Yearly 
+1
+Please enter your monthly Salary : 
+19127
+Your monthly tax is : 3,536 NIS 
+
+Run number five : 
+How would you like to calculate the tax? 
+press '1' for Monthly or '2' for Yearly 
+2
+Please enter your yearly Salary : 
+602023
+Your yearly tax is : 184,007 NIS  

@@ -1,0 +1,19 @@
+first run : 
+Please enter three words : aa bb cc
+The words aa , bb and cc are in order. 
+
+second run : 
+Please enter three words : dd cc bb
+The words dd , cc and bb are in order. 
+
+third run : 
+Please enter three words : zzz zzzz z
+The words zzz , zzzz and z are NOT in order.  
+
+run number four : 
+Please enter three words : aba baba saba
+The words aba , baba and saba are in order. 
+
+run number five : 
+Please enter three words : ee ff dd
+The words ee , ff and dd are NOT in order.  

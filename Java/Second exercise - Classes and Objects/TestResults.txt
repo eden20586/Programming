@@ -1,0 +1,35 @@
+First run :
+
+Please enter the account number : 1023/al
+Please enter the customer name : Alice
+Please enter the initial balance : 1000
+Please enter the transactionFee : 5.5
+First account created in success
+The first account details are : CheckingAccount [acoountNum=1023/al, customerName=Alice, balance=1000.0, transactionFee=5.5]
+Please enter the account number : 909/bo
+Please enter the customer name : Bob
+Second account created in success
+The second account details are : CheckingAccount [acoountNum=909/bo, customerName=Bob, balance=0.0, transactionFee=1.75]
+Please enter the amount to transfer : 1000
+Amount of 1000.0 NIS is transfered from the first to the second account.
+Accounts details : 
+CheckingAccount [acoountNum=1023/al, customerName=Alice, balance=-5.5, transactionFee=5.5]
+CheckingAccount [acoountNum=909/bo, customerName=Bob, balance=998.25, transactionFee=1.75] 
+
+Second run : 
+
+Please enter the account number : 1202/dv
+Please enter the customer name : Dvir
+Please enter the initial balance : 12000
+Please enter the transactionFee : 7.5
+First account created in success
+The first account details are : CheckingAccount [acoountNum=1202/dv, customerName=Dvir, balance=12000.0, transactionFee=7.5]
+Please enter the account number : 1278/ed
+Please enter the customer name : Eden
+Second account created in success
+The second account details are : CheckingAccount [acoountNum=1278/ed, customerName=Eden, balance=0.0, transactionFee=1.75]
+Please enter the amount to transfer : 11200
+Amount of 11200.0 NIS is transfered from the first to the second account.
+Accounts details : 
+CheckingAccount [acoountNum=1202/dv, customerName=Dvir, balance=792.5, transactionFee=7.5]
+CheckingAccount [acoountNum=1278/ed, customerName=Eden, balance=11198.25, transactionFee=1.75]

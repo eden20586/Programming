@@ -1,0 +1,25 @@
+First run : 
+Please enter salary , -1 to finish : 2400
+5000
+2100
+0
+-1
+The Average salary is : 2,375.00. 
+
+Second run : 
+Please enter salary , -1 to finish : 10000
+24000
+7500
+17500
+-1
+The Average salary is : 14,750.00. 
+
+Third run : 
+Please enter salary , -1 to finish : 90000
+45000
+32000
+14000
+8500
+5000
+-1
+The Average salary is : 32,416.67. 
