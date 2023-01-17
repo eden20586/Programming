@@ -1,7 +1,7 @@
 # Programming
 Hey, I'm Eden Admoni, and in this repository, I will show some projects in Programming.
 
-In the projects, we will see the ability to write codes, use OOP, create methods, create variables, and more then.
+In the projects, we will see the ability to write codes, use OOP, create methods, create variables, and more.
 
 I will show some projects in Python and Java language.
 
